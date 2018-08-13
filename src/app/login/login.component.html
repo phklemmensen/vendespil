@@ -1,0 +1,11 @@
+<h2>Please login</h2>
+
+<div>
+  <label>Username:
+    <input [(ngModel)]="user.name" placeholder="name">
+    <button (click)="onLogin()">Login</button>
+  </label>
+</div>
+
+{{user.name | uppercase}}
+{{userId}}

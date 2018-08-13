@@ -1,0 +1,10 @@
+<p class="congrats">
+  Congrats :-) ! Yay, they match.
+</p>
+
+<h1>{{points}}</h1>
+
+<div style="display:flex;justify-content:center;align-items:center;">
+    <app-card [card]=card (onRevealed)="onRevealed($event)" *ngFor="let card of cards">
+    </app-card>
+</div>

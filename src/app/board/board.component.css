@@ -1,0 +1,17 @@
+.congrats
+{
+    visibility: hidden;
+}
+
+.congrats-revealed
+{
+    animation-name: congratulate;
+    animation-duration: 1s;    
+    background-color: peachpuff;
+}
+
+
+@keyframes congratulate {
+    from {background-color: white;}
+    to {background-color: peachpuff;}
+}

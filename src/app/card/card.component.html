@@ -1,0 +1,6 @@
+
+<div *ngIf="card.revealed" class="card card-revealed" (click)="onReveal($event)">
+  <span>{{card.name}}</span>
+</div>
+<div *ngIf="!card.revealed" class="card" (click)="onReveal($event)">
+</div>
